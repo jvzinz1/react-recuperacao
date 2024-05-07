@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (max-device-width: 900px) {
+  header h1{
+    width: 100%;
+
+  }}
+header h1{
+  background-color: brown ;
+  color: bisque;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 5px;
+  text-align: center;
+}
+header h1:hover{
+  color: rgb(255, 255, 255);
+}
+nav img{
+  display: flex;
+  width: calc(100% + 50%);
+  height: calc(1000px - 750px);
+}
+@media only screen and (max-device-width: 900px) {
+  nav img{
+    width: 100%;
+    flex-direction:column;
+  }}
+@media only screen and (max-device-width: 900px) {
+  section img{
+    width: 100%;
+    height: 100%;
+    
+  }}
+section img{
+  width:calc(1000px - 500px);
+  height: calc(1000px - 400px);
+  margin-top: calc(1000px - 950px);
+}
+
+.livropp{
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-device-width: 900px) {
+  .livropp{
+    display: block;
+    text-align: center;
+    background-color: bisque;
+  }}
+.info{
+  margin-top: calc(1000px - 750px);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  padding: calc(1000px - 990px);
+  background-color: bisque;
+  width: calc(1000px - 500px);
+  height: calc(1000px - 820px);
+  border-radius: calc(1000px - 970px);
+
+}
+
+
+.galeria img{
+  width:calc(1000px - 700px);
+  height:calc(1000px - 600px);
+  object-fit: cover;
+}
+
+.linha1{
+  display: flex;
+  justify-content: center;
+  padding:calc(1000px - 980px);
+  gap:calc(1000px - 980px);
+}
+
+.linha2{
+  display: flex;
+  justify-content: center;
+  padding:calc(1000px - 980px);
+  gap:calc(1000px - 980px);
+}
+footer{
+  background-color: brown ;
+  color: bisque;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  padding: 5px;
+  
+}
+footer:hover{
+  color: white;
+}
+@media only screen and (max-device-width: 900px) {
+  .galeria{
+    width: 100%;
+    flex-direction: column;
+  }
+  }
+  @media only screen and (max-device-width: 900px) {
+    .linha1{
+      width: 100%;
+      flex-direction: column;
+    }}
+    @media only screen and (max-device-width: 900px) {
+      .linha2{
+        width: 100%;
+        flex-direction: column;
+      }}
+      @media only screen and (max-device-width: 900px) {
+        .info{
+          width: 50%;
+          flex-direction:column-reverse;
+        }}
+  
+
